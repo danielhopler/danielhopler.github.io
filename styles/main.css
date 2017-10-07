@@ -1,16 +1,21 @@
-header#portfolio-header {
-  background: url(images/jose-murillo-22951.jpg) center / cover;
+header {
+  background: url(/images/jose-murillo-22951.jpg) center / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;
 }
+
+body {
+  padding-bottom: 5rem;
+}
+
 
 h1 {
   color: hsla(0, 0%, 0%, 0.9);
   font-weight: bold;
 }
 
-#slogan {
+.slogan {
   color: hsla(0, 0%, 0%, 0.7);
   font-weight: lighter;
   font-size: 1.6rem;
@@ -22,14 +27,13 @@ main {
 
 .project-description {
   padding-left: 0;
-
 }
 
 .project img {
   width: 100%;
 }
 
-footer#connect {
+footer.mdl-mini-footer {
   bottom: 0;
   padding: 0.5rem;
   position: fixed;
@@ -37,13 +41,13 @@ footer#connect {
   z-index: 1;
 }
 
-#footer-links {
+footer.mdl-mini-footer > ul {
   margin: auto;
   font-size: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
-  header#portfolio-header {
+  header.mdl-layout__header {
     display: flex;
   }
 }
