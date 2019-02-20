@@ -1,6 +1,7 @@
 header {
+  margin-top: 30px;
   background: url(/images/jose-murillo-22951.jpg) center / cover;
-  height: 60vh;
+  height: 100vh;
   justify-content: center;
   text-align: center;
 }
