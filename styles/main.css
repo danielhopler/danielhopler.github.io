@@ -1,13 +1,16 @@
+
 header {
   margin-top: 30px;
   background: url(/images/jose-murillo-22951.jpg) center / cover;
-  height: 100vh;
+  height: 95vh;
   justify-content: center;
   text-align: center;
 }
 
 body {
   padding-bottom: 5rem;
+  background-color: #D5D5D5;
+
 }
 
 
@@ -26,12 +29,20 @@ main {
   max-width: 900px;
 }
 
+.main-content {
+}
+
 .project-description {
   padding-left: 0;
 }
 
 .project img {
   width: 100%;
+}
+
+.img-mdl-cell {
+  height: 173px;
+  width: 283px;
 }
 
 
@@ -53,4 +64,49 @@ footer.mdl-mini-footer > ul {
   header.mdl-layout__header {
     display: flex;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#arrow-down {
+  margin-top: 50px;
+  font-size: 3rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.fa-pulse {
+	display: inline-block;
+	-moz-animation: pulse 2s infinite linear;
+	-o-animation: pulse 2s infinite linear;
+	-webkit-animation: pulse 2s infinite linear;
+	animation: pulse 2s infinite linear;
+}
+
+@-webkit-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-moz-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
 }

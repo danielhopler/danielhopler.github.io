@@ -14,15 +14,18 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-
     <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>Daniel Hopler</h1>
       <p class="slogan">I like building things...</p>
+
+      <a href="javascript: document.body.scrollIntoView(false);" id="arrow-down">
+        <i class="fa fa-arrow-down fa-pulse" aria-hidden="true"></i>
+      </a>
     </header>
 
-      <main class="mdl-layout__content mdl-grid">
+      <main class="mdl-layout__content mdl-grid main-content">
 
-        <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--2dp">
           <div class="mdl-card__media mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
             <img src="http://lorempixel.com/350/260/abstract/placeholder-1"
              alt="project screenshot"/>
@@ -33,10 +36,10 @@
          </div>
         </div>
 
-        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div class="project mdl-cell mdl-card mdl-shadow--2dp">
           <div class="mdl-card__media">
             <a href="">
-              <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+              <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot" class="img-mdl-cell"/>
             </a>
          </div>
          <div class="mdl-card__title">
@@ -45,10 +48,10 @@
           <div class="mdl-card__supporting-text">Project description text</div>
         </div>
 
-        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div class="project mdl-cell mdl-card mdl-shadow--2dp">
           <div class="mdl-card__media">
-            <a href="https://protected-brushlands-54332.herokuapp.com/">
-              <img src='/images/bloccit-home.jpg' alt="project screenshot"/>
+            <a href="https://bloccit-danielhopler.herokuapp.com">
+              <img src='/images/bloccit-home.png' alt="project screenshot" class="img-mdl-cell"/>
             </a>
          </div>
          <div class="mdl-card__title">
@@ -57,9 +60,9 @@
           <div class="mdl-card__supporting-text">Reddit style app where users can post, comment, and vote on their favorites.</div>
         </div>
 
-        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-          <a href="https://pure-fjord-58354.herokuapp.com/">
-            <img src='/images/blocipedia-home.jpg' alt="project screenshot"/>
+        <div class="project mdl-cell mdl-card mdl-shadow--2dp">
+          <a href="https://blocipedia-danielhopler.herokuapp.com/">
+            <img src='/images/blocipedia-home.png' alt="project screenshot" class="img-mdl-cell"/>
           </a>
          <div class="mdl-card__title">
            <h2 class="mdl-card__title-text">Blocipedia</h2>
@@ -68,8 +71,7 @@
         </div>
 
       </main>
-
-      <footer id="connect" class="mdl-mini-footer">
+      <footer id="connect down-footer" class="mdl-mini-footer" >
         <ul id="footer-links" class="mdl-mini-footer__link-list">
           <li>
             <a href="https://www.linkedin.com/in/daniel-hopler-a719037b">
@@ -79,11 +81,6 @@
           <li>
             <a href="https://github.com/danielhopler">
               <i class="fa fa-github-square" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/dhopler">
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
           </li>
           <li>
