@@ -1,5 +1,10 @@
+body{
+  background-color: #444444;
+}
 .portfolio-layout-transparent {
   background: url(/images/jose-murillo-22951.jpg) center / cover;
+  height: 100%;
+  width: 100%;
 }
 
 .portfolio-layout-transparent .mdl-layout__header,
