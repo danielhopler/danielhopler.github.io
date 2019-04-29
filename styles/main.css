@@ -1,4 +1,24 @@
+.portfolio-layout-transparent {
+  background: url(/images/jose-murillo-22951.jpg) center / cover;
+}
 
+.portfolio-layout-transparent .mdl-layout__header,
+.portfolio-layout-transparent .mdl-navigation__link,
+.portfolio-layout-transparent .mdl-layout__drawer-button {
+/* This background is dark, so we set text to white. Use 87% black instead if
+   your background is light. */
+  color: RGBA(4,4,4,.87);
+}
+
+.mdl-navigation i {
+  margin: auto;
+  font-size: 1.4rem;
+}
+
+ .nav-font {
+  font-size: 1.4rem;
+}
+/*
 header {
   margin-top: 30px;
   background: url(/images/jose-murillo-22951.jpg) center / cover;
@@ -66,47 +86,5 @@ footer.mdl-mini-footer > ul {
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
-#arrow-down {
-  margin-top: 50px;
-  font-size: 3rem;
-  color: rgba(0,0,0,0.6);
-}
-
-.fa-pulse {
-	display: inline-block;
-	-moz-animation: pulse 2s infinite linear;
-	-o-animation: pulse 2s infinite linear;
-	-webkit-animation: pulse 2s infinite linear;
-	animation: pulse 2s infinite linear;
-}
-
-@-webkit-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-
-@-moz-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-o-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-ms-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
+*/
