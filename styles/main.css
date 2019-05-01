@@ -2,18 +2,9 @@ body{
   background-color: #444444;
 }
 
-@font-face {
-  font-family:'CarimbaScriptRough';
-  src:
-    url('fonts/Carimba Script Rough.ttf'),
-    format('truetype');
-}
-
-
-
 .portfolio-layout-transparent {
   background: url(/images/jose-murillo-22953.jpeg) center / cover;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .portfolio-layout-transparent .mdl-layout__header,
@@ -28,6 +19,8 @@ body{
   margin: auto;
   margin-top: 25px;
   font-size: 1.8rem;
+  text-shadow: 1px 1px RGBA(68,68,68,0.4);
+
 
 }
 
@@ -49,18 +42,12 @@ body{
 
 }
 
-.mdl-layout__content section {
-  margin-top: 6%;
-  margin-right: 18%;
-
-}
-
 
 
 .slogan {
   color: hsla(0, 0%, 0%, 0.7);
   font-weight: lighter;
-  text-shadow: 1px 1px #FFF;
+  text-shadow: 1px 1px RGBA(68,68,68,0.4);
   display: inline-block;
   word-spacing: 100vw;
   text-align: left;
@@ -68,13 +55,13 @@ body{
 }
 
 .fun{
-  background-color: RGBA(255,255,0,0.35);
+  background-color: RGBA(255,255,0,0.45);
   padding: 5px 15px;
   border-radius: 6px;
 
 }
 
-.img-mdl-cell {
+.mdl-cell {
   height: 173px;
   width: 283px;
 }
@@ -114,8 +101,6 @@ h1 {
 }
 
 
-.main-content {
-}
 
 .project-description {
   padding-left: 0;
