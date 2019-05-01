@@ -4,7 +4,9 @@ body{
 
 .portfolio-layout-transparent {
   background: url(/images/jose-murillo-22953.jpeg) center / cover;
-  opacity: 0.95;
+  height: 100%;
+  width:100%;
+  opacity: 1;
 }
 
 .portfolio-layout-transparent .mdl-layout__header,
@@ -14,14 +16,30 @@ body{
    your background is light. */
   color: RGBA(4,4,4,.87);
 }
+#profile-pic {
+box-shadow: 0px 2px 6px 1px RGBA(4,4,4,.60);
+border-radius: 50%;
+width: 150px;
+height: 150px;
+margin-top: 6%;
+}
+
+img {
+  background: blue;
+}
+
 
 .mdl-navigation i {
   margin: auto;
   margin-top: 25px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-shadow: 1px 1px RGBA(68,68,68,0.4);
+}
 
-
+span.mdl-layout-title {
+  padding-left: 1%;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px #FFF;
 }
 
  .nav-font {
@@ -34,46 +52,81 @@ body{
   text-align: center;
 }
 
-.mdl-layout__content h1 {
-  margin-top: 6%;
-  margin-left: 28%;
-  margin-bottom: 30%;
-  font-size: 90px;
+.right h2 {
+
+  font-size: 40px;
+  color: hsla(0, 0%, 0%, 0.9);
+  font-weight: lighter;
 
 }
 
 
+.right section p {
+  margin-top: 13%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 35px;
+  font-weight:bolder;
+  line-height: 50px;
+  color: hsla(0, 0%, 0%, 0.6);
+  text-shadow: 1px 1px #FFF;
+
+}
+#tech-skills {
+  margin-top: 5%;
+  margin-left: 18%;
+  text-align: left;
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: normal;
+  color: RGBA(68,68,68,0.7);
+  list-style-type: none;
+
+}
+
+.right ul {
+  font-size: 20px;
+
+
+}
+
+.left {
+  margin-top: 5%;
+  margin-left: -10%;
+  margin-bottom: 20%;
+  font-size: 70px;
+  text-align: right;
+  line-height: normal;
+}
+
+
+div.left {
+  font-weight: lighter;
+  text-shadow: 1px 1px RGBA(68,68,68,0.4);
+  font-size: 80px;
+  color: RGBA(68,68,68,0.7);
+}
 
 .slogan {
-  color: hsla(0, 0%, 0%, 0.7);
-  font-weight: lighter;
+  color: hsla(0, 0%, 0%, 0.6);
+  font-weight: bolder;
   text-shadow: 1px 1px RGBA(68,68,68,0.4);
   display: inline-block;
   word-spacing: 100vw;
-  text-align: left;
+  font-size: 70px;
+
 
 }
 
 .fun{
-  background-color: RGBA(255,255,0,0.45);
+  background-color: RGBA(255,255,0,0.25);
   padding: 5px 15px;
   border-radius: 6px;
 
 }
-
-.mdl-cell {
-  height: 173px;
-  width: 283px;
-}
-
-@media screen and (max-width: 1024px) {
-  header.mdl-layout__header {
-    display: flex;
-  }
-}
-
-
 /*
+
+
 header {
   margin-top: 30px;
   background: url(/images/jose-murillo-22951.jpg) center / cover;

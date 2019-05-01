@@ -20,19 +20,21 @@
     <header class="mdl-layout__header mdl-layout__header--transparent">
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title nav-font">Daniel Hopler</span>
+       <img class="mdl-layout-title" id="profile-pic" src="/images/profile.jpg" />
+       <span class="mdl-layout-title fun">Daniel Hopler</span>
+
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation -->
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link nav-font" href="">Projects</a>
-          <a class="mdl-navigation__link" href="https://www.linkedin.com/in/danielhopler/">
+          <a class="mdl-navigation__link nav-font fun" href="">Projects</a>
+          <a class="mdl-navigation__link" href="https://www.linkedin.com/in/danielhopler/ " target='_blank'>
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
-          <a class="mdl-navigation__link" href="https://github.com/danielhopler">
+          <a class="mdl-navigation__link" href="https://github.com/danielhopler" target='_blank'>
             <i class="fa fa-github-square" aria-hidden="true"></i>
           </a>
-          <a class="mdl-navigation__link" href="mailto:hopler.daniel@gmail.com">
+          <a class="mdl-navigation__link" href="mailto:hopler.daniel@gmail.com" target='_blank'>
             <i class="fa fa-envelope-square" aria-hidden="true"></i>
           </a>
         </nav>
@@ -49,12 +51,24 @@
   </div>
   <main class="mdl-layout__content">
     <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--6-col">
-        <h1 class="slogan">Let's <strong class="fun">Build</strong> Something <strong class="fun">Cool</strong></h1>
+
+      <div class="left mdl-cell mdl-cell--6-col">
+        <div id="name">Hi, I'm Daniel,</div>
+        <h1 class="slogan"> Let's <strong class="fun">Build</strong> Something <strong class="fun">Cool</strong></h1>
       </div>
-      <div class="mdl-cell mdl-cell--6-col">
-        6
+
+      <div class="right mdl-cell mdl-cell--6-col">
+        <section >
+          <p>I'm a Web Developer located in Columbus, OH. I'm always striving to learn and create DRY, maintainable, code.</p> 
+          <ul id="tech-skills">
+            <li>- Ruby on Rails, React.js</li>
+            <li>- Github, Rspec</li>
+            <li>- JavaScript, Ruby</li>
+            <li>- HTML5, CSS, PostgreSQL</li>
+          </ul>
+        </section>
       </div>
+
     </div>
   </main>
 </div>
