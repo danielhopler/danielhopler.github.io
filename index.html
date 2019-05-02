@@ -10,20 +10,40 @@
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="scroll-down.js"></script>
+
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles/main.css">
+   <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <header class="mdl-layout__header mdl-layout__header--transparent">
-      <h1>Daniel Hopler</h1>
-      <p class="slogan">I like building things...</p>
 
-      <a href="javascript: document.body.scrollIntoView(false);" id="arrow-down">
-        <i class="fa fa-arrow-down fa-pulse" aria-hidden="true"></i>
-      </a>
+<section class="company-heading intro-type" id="parallax-one">
+  <div >
+    <div class="row product-title-info">
+      <div class="col-md-12">
+        <h1>Daniel Hopler</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="main">
+  <section >
+    <div class="container">
+      <div >
+        <h2>Let's Build Something Cool!</h2>
+        <p>WebCorpCo is all about making sure your marketing stack is in alignment with your company as well as the customers you serve. There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#portfolio-content"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+      </div>
+    </div>
+  </section>
+</div>
     </header>
 
-      <main class="mdl-layout__content mdl-grid main-content">
+      <main id="portfolio-content"class="mdl-layout__content mdl-grid main-content">
 
         <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--2dp">
           <div class="mdl-card__media mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">

@@ -14,13 +14,8 @@ body {
 }
 
 
-h1 {
-  color: hsla(0, 0%, 0%, 0.9);
-  font-weight: bold;
-}
 
 .slogan {
-  color: hsla(0, 0%, 0%, 0.7);
   font-weight: lighter;
   font-size: 1.6rem;
 }
@@ -66,47 +61,61 @@ footer.mdl-mini-footer > ul {
   }
 }
 
-html {
-  scroll-behavior: smooth;
+h2 {
+
 }
 
-#arrow-down {
-  margin-top: 50px;
-  font-size: 3rem;
-  color: rgba(0,0,0,0.6);
+.container p {
+  padding-top: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-left: inherit;
+
+
 }
 
-.fa-pulse {
-	display: inline-block;
-	-moz-animation: pulse 2s infinite linear;
-	-o-animation: pulse 2s infinite linear;
-	-webkit-animation: pulse 2s infinite linear;
-	animation: pulse 2s infinite linear;
+.separator-type, .title-type, .intro-type, .content-type .intro-type p {
+  position: relative;
+}
+.intro-type .container {
+  padding: 107px 0px 102px 0px !important;
+}
+.company-heading h1 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-bottom: 50px;
+  line-height: 50px;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
 }
 
-@-webkit-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
+.seo-header, .product-header,
+.intro-type .container h1.white,
+.company-heading h1 {
+  font-weight: 300 !important;
+  text-transform: capitalize;
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+.
+
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 10px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
 }
 
-@-moz-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-o-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@-ms-keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@keyframes pulse {
-	0% { opacity: 1; }
-	50% { opacity: 0; }
-	100% { opacity: 1; }
+.ct-btn-scroll img {
+
+  margin-top: 50%;
 }
