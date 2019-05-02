@@ -61,18 +61,16 @@ footer.mdl-mini-footer > ul {
   }
 }
 
-h2 {
 
-}
 
 .container p {
   padding-top: 30px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
   margin-left: inherit;
-
-
 }
+
+
 
 .separator-type, .title-type, .intro-type, .content-type .intro-type p {
   position: relative;
@@ -117,5 +115,5 @@ h2 {
 
 .ct-btn-scroll img {
 
-  margin-top: 50%;
+  margin-top: 15%;
 }
