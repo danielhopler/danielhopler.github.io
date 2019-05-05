@@ -7,8 +7,6 @@ body{
   background: url(/images/jose-murillo-22953.jpeg) center / cover;
   margin-top: 10px;
 
-
-
 }
 
 .portfolio-layout-transparent .mdl-layout__header,
@@ -16,7 +14,7 @@ body{
 .portfolio-layout-transparent .mdl-layout__drawer-button {
 /* This background is dark, so we set text to white. Use 87% black instead if
    your background is light. */
-  color: #6B5E3D; 
+  color: #6B5E3D;
 }
 
 #profile-pic {
@@ -63,7 +61,7 @@ margin-top: 6%;
 
 .intro article {
   margin-top: 80px;
-}
+} 
 
 h2 {
   font-family: 'Open Sans', sans-serif;
