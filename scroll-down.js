@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> template
 $(document).ready(function(){
   $("a").on('click', function(event) {
     if (this.hash !== "") {
@@ -14,12 +10,7 @@ $(document).ready(function(){
       });
     }
   });
-<<<<<<< HEAD
-<<<<<<< HEAD
-});
+})
 =======
 })
->>>>>>> template
-=======
-}) 
 >>>>>>> template
