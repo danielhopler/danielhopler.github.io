@@ -1,12 +1,14 @@
+
 body{
-  background-color: #444444;
+  background: url(/images/jose-murillo-22953.jpeg) center / cover;
 }
 
 .portfolio-layout-transparent {
   background: url(/images/jose-murillo-22953.jpeg) center / cover;
-  height: 100%;
-  width:100%;
-  opacity: 1;
+  margin-top: 10px;
+
+
+
 }
 
 .portfolio-layout-transparent .mdl-layout__header,
@@ -14,8 +16,9 @@ body{
 .portfolio-layout-transparent .mdl-layout__drawer-button {
 /* This background is dark, so we set text to white. Use 87% black instead if
    your background is light. */
-  color: RGBA(4,4,4,.87);
+  color: #6B5E3D;
 }
+
 #profile-pic {
 box-shadow: 0px 2px 6px 1px RGBA(4,4,4,.60);
 border-radius: 50%;
@@ -24,106 +27,77 @@ height: 150px;
 margin-top: 6%;
 }
 
-img {
-  background: blue;
+/* Font related */
+.mdl-layout-title {
+  font-size: 2rem;
 }
 
+.mdl-layout__drawer-button i {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+.nav-icons {
+  margin-top: 10px;
+}
+
+.mdl-layout__drawer a {
+  font-size: 1.5rem;
+}
 
 .mdl-navigation i {
-  margin: auto;
-  margin-top: 25px;
+  flex: 1;
   font-size: 2rem;
-  text-shadow: 1px 1px RGBA(68,68,68,0.4);
 }
 
-span.mdl-layout-title {
-  padding-left: 1%;
-  font-size: 1.8rem;
-  text-shadow: 1px 1px #FFF;
+.text-format {
+  font-family: 'Open Sans', sans-serif;
+
 }
 
- .nav-font {
-  font-size: 2em;
-  text-shadow: 1px 1px #FFF;
-}
-
-.mdl-layout__content {
+.intro {
+  display: flex;
+  flex-flow: column wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.intro article {
+  margin-top: 80px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #A29064;
   text-align: center;
-}
+  font-size: 3vw;
+  margin: 120px;
+  line-height: auto;
 
-.right h2 {
-
-  font-size: 40px;
-  color: hsla(0, 0%, 0%, 0.9);
-  font-weight: lighter;
-
-}
-
-
-.right section p {
-  margin-top: 13%;
-  margin-left: 20%;
-  text-align: center;
-  font-size: 35px;
-  font-weight:bolder;
-  line-height: 50px;
-  color: hsla(0, 0%, 0%, 0.6);
-  text-shadow: 1px 1px #FFF;
-
-}
-#tech-skills {
-  margin-top: 5%;
-  margin-left: 18%;
-  text-align: left;
-  font-size: 25px;
-  font-weight: lighter;
-  line-height: normal;
-  color: RGBA(68,68,68,0.7);
-  list-style-type: none;
-
-}
-
-.right ul {
-  font-size: 20px;
-
-
-}
-
-.left {
-  margin-top: 5%;
-  margin-left: -10%;
-  margin-bottom: 20%;
-  font-size: 70px;
-  text-align: right;
-  line-height: normal;
-}
-
-
-div.left {
-  font-weight: lighter;
-  text-shadow: 1px 1px RGBA(68,68,68,0.4);
-  font-size: 80px;
-  color: RGBA(68,68,68,0.7);
 }
 
 .slogan {
-  color: hsla(0, 0%, 0%, 0.6);
-  font-weight: bolder;
-  text-shadow: 1px 1px RGBA(68,68,68,0.4);
-  display: inline-block;
-  word-spacing: 100vw;
-  font-size: 70px;
-
-
-}
-
-.fun{
-  background-color: RGBA(255,255,0,0.25);
-  padding: 5px 15px;
-  border-radius: 6px;
+  line-height: auto;
+  font-size: 6vw;
+  padding: 3vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-shadow: 1px 1px #5D4D22;
+  color: #A29064;
+  text-align: center;
 
 }
+
+footer.scroll-arrow {
+  text-align: center;
+  bottom: 0;
+  padding: 5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
 /*
 
 

@@ -5,6 +5,7 @@
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- Font Awesome -->
@@ -12,23 +13,26 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="scroll-down.js"></script>
   </head>
   <body>
 
   <div class="portfolio-layout-transparent mdl-layout mdl-js-layout">
     <header class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="mdl-layout__header-row">
+      <div class="mdl-layout__header-row nav-icons">
         <!-- Title -->
-       <img class="mdl-layout-title" id="profile-pic" src="/images/profile.jpg" />
-       <span class="mdl-layout-title fun">Daniel Hopler</span>
+       <span class="mdl-layout-title">Daniel Hopler </span>
+
+
 
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation -->
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link nav-font fun" href="">Projects</a>
-          <a class="mdl-navigation__link" href="https://www.linkedin.com/in/danielhopler/ " target='_blank'>
+        <nav class="mdl-navigation ">
+          <a class="mdl-navigation__link " href="https://www.linkedin.com/in/danielhopler/ " target='_blank'>
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
           <a class="mdl-navigation__link" href="https://github.com/danielhopler" target='_blank'>
@@ -43,33 +47,24 @@
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Daniel Hopler</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Projects</a>
+      <a class="mdl-navigation__link" href="">Work</a>
       <a class="mdl-navigation__link" href="https://www.linkedin.com/in/danielhopler/">LinkedIn</a>
       <a class="mdl-navigation__link" href="https://github.com/danielhopler">Github</a>
       <a class="mdl-navigation__link" href="mailto:hopler.daniel@gmail.com">Email</a>
     </nav>
   </div>
-  <main class="mdl-layout__content">
-    <div class="mdl-grid">
+  <main >
 
-      <div class="left mdl-cell mdl-cell--6-col">
-        <div id="name">Hi, I'm Daniel,</div>
-        <h1 class="slogan"> Let's <strong class="fun">Build</strong> Something <strong class="fun">Cool</strong></h1>
-      </div>
+    <section class="intro">
+      <article>
+        <p class="slogan">Let's Build Some Cool Stuff </p>
+        <h2 >Full Stack Developer | Rails, React, & JS</h2>
+      </article>
 
-      <div class="right mdl-cell mdl-cell--6-col">
-        <section >
-          <p>I'm a Web Developer located in Columbus, OH. I'm always striving to learn and create DRY, maintainable, code.</p> 
-          <ul id="tech-skills">
-            <li>- Ruby on Rails, React.js</li>
-            <li>- Github, Rspec</li>
-            <li>- JavaScript, Ruby</li>
-            <li>- HTML5, CSS, PostgreSQL</li>
-          </ul>
-        </section>
-      </div>
-
-    </div>
+    </section>
+    <footer class="scroll-arrow">
+      <a class="ct-btn-scroll ct-js-btn-scroll" href="#portfolio-content"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+    </footer>
   </main>
 </div>
 
