@@ -116,18 +116,18 @@ body {
 }
 
 
+h1 {
+  color: hsla(0, 0%, 0%, 0.9);
+  font-weight: bold;
+}
 
 .slogan {
+  color: hsla(0, 0%, 0%, 0.7);
   font-weight: lighter;
   font-size: 1.6rem;
 }
 
-main {
-  max-width: 900px;
-}
 
-.main-content {
-}
 
 .project-description {
   padding-left: 0;
@@ -164,58 +164,4 @@ footer.mdl-mini-footer > ul {
 }
 
 
-
-.container p {
-  padding-top: 30px;
-  font-size: 2rem;
-  text-align: center;
-  margin-left: inherit;
-}
-
-
-
-.separator-type, .title-type, .intro-type, .content-type .intro-type p {
-  position: relative;
-}
-.intro-type .container {
-  padding: 107px 0px 102px 0px !important;
-}
-.company-heading h1 {
-  margin-top: 30px;
-  margin-bottom: 60px;
-  padding-bottom: 50px;
-  line-height: 50px;
-  color: #FFF;
-  font-weight: bold;
-  text-align: center;
-}
-
-.seo-header, .product-header,
-.intro-type .container h1.white,
-.company-heading h1 {
-  font-weight: 300 !important;
-  text-transform: capitalize;
-  font-size: 55px;
-  margin-bottom: 40px;
-}
-.
-
-.ct-btn-scroll {
-  width: 49px;
-  height: 49px;
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding-top: 10px;
-  z-index: 9;
-  border-radius: 50%;
-  -webkit-transition: background-color 0.1s ease-in-out;
-  transition: background-color 0.25s ease-in-out;
-}
-
-.ct-btn-scroll img {
-
-  margin-top: 15%;
-}
+*/
