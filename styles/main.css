@@ -1,4 +1,106 @@
 
+body{
+  background: url(/images/jose-murillo-22953.jpeg) center / cover;
+}
+
+.portfolio-layout-transparent {
+  background: url(/images/jose-murillo-22953.jpeg) center / cover;
+  margin-top: 10px;
+
+
+
+}
+
+.portfolio-layout-transparent .mdl-layout__header,
+.portfolio-layout-transparent .mdl-navigation__link,
+.portfolio-layout-transparent .mdl-layout__drawer-button {
+/* This background is dark, so we set text to white. Use 87% black instead if
+   your background is light. */
+  color: #6B5E3D;
+}
+
+#profile-pic {
+box-shadow: 0px 2px 6px 1px RGBA(4,4,4,.60);
+border-radius: 50%;
+width: 150px;
+height: 150px;
+margin-top: 6%;
+}
+
+/* Font related */
+.mdl-layout-title {
+  font-size: 2rem;
+}
+
+.mdl-layout__drawer-button i {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+.nav-icons {
+  margin-top: 10px;
+}
+
+.mdl-layout__drawer a {
+  font-size: 1.5rem;
+}
+
+.mdl-navigation i {
+  flex: 1;
+  font-size: 2rem;
+}
+
+.text-format {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.intro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro article {
+  margin-top: 80px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #A29064;
+  text-align: center;
+  font-size: 3vw;
+  margin: 120px;
+  line-height: auto;
+
+}
+
+.slogan {
+  line-height: auto;
+  font-size: 6vw;
+  padding: 3vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-shadow: 1px 1px #5D4D22;
+  color: #A29064;
+  text-align: center;
+
+}
+
+footer.scroll-arrow {
+  text-align: center;
+  bottom: 0;
+  padding: 5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+/*
+
+
 header {
   margin-top: 30px;
   background: url(/images/jose-murillo-22951.jpg) center / cover;
