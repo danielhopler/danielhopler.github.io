@@ -15,7 +15,11 @@ $(document).ready(function(){
     }
   });
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 =======
 })
+>>>>>>> template
+=======
+}) 
 >>>>>>> template
