@@ -20,18 +20,18 @@
   </head>
   <body>
 
-  <div class="portfolio-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
+  <div class="portfolio-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--transparent ">
       <div class="mdl-layout__header-row nav-icons">
         <!-- Title -->
-       <span class="mdl-layout-title">Daniel Hopler </span>
+       <span class="mdl-layout-title ">Daniel Hopler </span>
 
 
 
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation -->
-        <nav class="mdl-navigation ">
+        <nav class="mdl-navigation mdl-cell--hide-phone ">
           <a class="mdl-navigation__link " href="https://www.linkedin.com/in/danielhopler/ " target='_blank'>
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
@@ -58,9 +58,31 @@
     <section class="intro">
       <article>
         <p class="slogan">Let's Build Some Cool Stuff </p>
-        <h2 >Full Stack Developer | Rails, React, & JS</h2>
+        <h2 class="mdl-layout--large-screen-only">Full Stack Developer | Rails, React, & JS</h2>
       </article>
-
+    </section>
+    <section class="about-me">
+      <article >
+        <div >
+          <img id="profile-pic" src="/images/profile.jpeg"/>
+        </div>
+        <div class="bio">
+          <h3>Hi, I'm Daniel.</h3>
+          <p>I'm an idiot</p>
+        </div>
+      </article>
+    </section>
+    <section class="projects">
+      <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__media mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1"
+           alt="project screenshot"/>
+        </div>
+        <div class="mdl-cell mdl-cell--7-col">
+         <h2 class="mdl-card__title-text">Featured Project Name</h2>
+         <p class="project-description mdl-card__supporting-text">Project description text</p>
+       </div>
+      </div>
     </section>
     <footer class="scroll-arrow">
       <a class="ct-btn-scroll ct-js-btn-scroll" href="#portfolio-content"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
