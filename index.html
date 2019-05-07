@@ -14,13 +14,13 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <script src="scroll-down.js"></script>
   </head>
   <body>
 
-  <div class="portfolio-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <div class="portfolio-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header" id="site-wrapper">
     <header class="mdl-layout__header mdl-layout__header--transparent ">
       <div class="mdl-layout__header-row nav-icons">
         <!-- Title -->
@@ -61,7 +61,7 @@
         <h2 class="mdl-layout--large-screen-only">Full Stack Developer | Rails, React, & JS</h2>
       </article>
     </section>
-    <section class="about-me">
+    <section id="about-me" class="about-me">
       <article >
         <div >
           <img id="profile-pic" src="/images/profile.jpeg"/>
@@ -84,9 +84,9 @@
        </div>
       </div>
     </section>
-    <footer class="scroll-arrow">
-      <a class="ct-btn-scroll ct-js-btn-scroll" href="#portfolio-content"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
-    </footer>
+    <div class="scroll-arrow">
+      <a class="ct-btn-scroll ct-js-btn-scroll" href="#about-me"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+    </div>
   </main>
 </div>
 

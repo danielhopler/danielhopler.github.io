@@ -1,13 +1,15 @@
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    }
+$(() => {
+	var $scroller = $('#site-wrapper');
+	$('a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash;
+    var $target = $(target);
+
+    $scroller.stop().animate({
+        'scrollTop': $target.offset().top - $scroller.offset().top + $scroller.scrollTop()
+    }, 900, 'swing', function () {
+        window.location.hash = target;
+    });
   });
 })

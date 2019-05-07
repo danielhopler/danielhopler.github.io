@@ -3,6 +3,22 @@
  padding: 0;
 }
 
+html, body {
+  overflow: hidden;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#site-wrapper {
+  height: 100%;
+  overflow: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 body{
   background: url(/images/jose-murillo-22953.jpeg) center / cover;
@@ -47,7 +63,7 @@ span.mdl-layout-title {
 }
 
 .mdl-layout__drawer a {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .mdl-navigation i {
@@ -86,21 +102,22 @@ h2 {
 
 }
 
-footer.scroll-arrow {
+div.scroll-arrow {
   bottom: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 1;
   text-align: center;
   padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+
 }
 
 .about-me  {
   text-align: center;
   justify-content: center;
-
   height: 100vh;
-  border: solid 4px white;
+
 }
 
 .about-me article {
@@ -128,6 +145,24 @@ footer.scroll-arrow {
   font-size: 18px;
   padding: 10px;
   border: solid 2px pink;
+}
+
+
+/* button scroll */
+
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 10px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
 }
 
 
