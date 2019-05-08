@@ -72,7 +72,6 @@ span.mdl-layout-title {
 
 .intro {
  height: 100vh;
- border: solid 2px black;
 }
 
 
@@ -87,13 +86,58 @@ h2 {
 
 }
 
+
+.about-me h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #A29064;
+  text-align: center;
+  font-size: 4em;
+  margin: 60px;
+  line-height: auto;
+
+}
+
+
+
+.about-me h3:nth-child(2) {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #A29064;
+  text-align: center;
+  font-size: 2.8em;
+  margin: 40px;
+  line-height: auto;
+}
+
+.about-me h3:nth-child(3) {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #A29064;
+  text-align: center;
+  font-size: 2.4em;
+  margin: 40px;
+  line-height: auto;
+}
+
+.about-me h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #A29064;
+  text-align: center;
+  font-size: 2.3em;
+  opacity: 0.9;
+  margin: 30px;
+  line-height: auto;
+}
+
 .slogan {
   letter-spacing:0.1em;
   line-height: 100%;
 
-  padding: 7%;
+  padding: 5%;
   text-transform: lowercase;
-  font-size: 7em;
+  font-size: 6.8em;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
   font-weight: 400;
   color: #A29064;
@@ -132,8 +176,12 @@ div.about-me {
 
 }
 
-.about-me article {
 
+.about-me article {
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 10%;
 }
 
 .about-me div:first-child {
@@ -142,9 +190,7 @@ div.about-me {
 
 .bio {
   margin: 80px;
-
   justify-content: center;
-  border: solid 4px green;
 }
 
 .bio p {
@@ -155,18 +201,45 @@ div.about-me {
   justify-content: center;
   font-size: 18px;
   padding: 10px;
-  border: solid 2px pink;
 }
 
 
-/* button scroll */
-
-
-
-.projects {
-  height: 100vh;
-  border: solid 2px black;
+section.projects {
+  width: 80%;
+  margin-bottom: 30px;
+  justify-content: center;
 }
+
+div.project {
+  margin: 30px;
+
+}
+
+
+.project-description {
+  padding-left: 0;
+
+}
+
+.project img {
+  width: 100%;
+
+}
+
+.img-mdl-cell {
+  height: 173px;
+  width: 263px;
+}
+
+h2.mdl-card__title-text {
+  width: 100%;
+  border-bottom: solid 1px #E1E1E1;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
 
 
 /*
