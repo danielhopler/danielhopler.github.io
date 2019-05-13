@@ -3,12 +3,6 @@
  padding: 0;
 }
 
-html, body {
-  overflow: hidden;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
 
 #site-wrapper {
   height: 100%;
@@ -23,6 +17,7 @@ html {
 body{
   background: url(/images/jose-murillo-22953.jpeg) center / cover;
 }
+
 
 .portfolio-layout-transparent {
   background: url(/images/jose-murillo-22953.jpeg) center / cover;
@@ -72,17 +67,19 @@ span.mdl-layout-title {
 
 .intro {
  height: 100vh;
+ margin-top: 10%;
 }
 
 
-h2 {
+.intro h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   color: #A29064;
   text-align: center;
-  font-size: 3.5em;
-  margin: 60px;
-  line-height: auto;
+  font-size: 2em;
+  line-height: 100%;
+  margin: 20px;
+  padding-top: 30px;
 
 }
 
@@ -105,8 +102,8 @@ h2 {
   font-weight: 300;
   color: #A29064;
   text-align: center;
-  font-size: 2.8em;
-  margin: 40px;
+  font-size: 2.2em;
+  margin: 20px;
   line-height: auto;
 }
 
@@ -115,8 +112,9 @@ h2 {
   font-weight: 300;
   color: #A29064;
   text-align: center;
-  font-size: 2.4em;
-  margin: 40px;
+  font-size: 2em;
+  line-height: 100%;
+  margin: 30px;
   line-height: auto;
 }
 
@@ -125,7 +123,8 @@ h2 {
   font-weight: 700;
   color: #A29064;
   text-align: center;
-  font-size: 2.3em;
+  font-size: 1.5em;
+  line-height: 1.1em;
   opacity: 0.9;
   margin: 30px;
   line-height: auto;
@@ -134,10 +133,12 @@ h2 {
 .slogan {
   letter-spacing:0.1em;
   line-height: 100%;
-
-  padding: 5%;
+  margin: 4%;
+  margin-top: 5%;
   text-transform: lowercase;
-  font-size: 6.8em;
+  font-size: calc(60px + (70 - 60) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(60px + (70 - 60) * ((100vw - 300px) / (1600 - 300)));
+
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
   font-weight: 400;
   color: #A29064;
@@ -151,19 +152,8 @@ div.scroll-arrow {
   width: 100%;
   z-index: 1;
   text-align: center;
+  box-sizing: border-box;
   padding-bottom: 10px;
-  -webkit-overflow-scrolling: touch;
-
-}
-
-div.about-me {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-  padding-bottom: 10px;
-
-  text-align: center;
   -webkit-overflow-scrolling: touch;
 
 }
@@ -172,24 +162,17 @@ div.about-me {
   text-align: center;
   justify-content: center;
   height: 100vh;
-
-
+  border: solid 4px yellow;
 }
 
 
 .about-me article {
-  width: 60%;
+  width: 100%;
   margin: auto;
   align-items: center;
-  margin-bottom: 10%;
-}
-
-.about-me div:first-child {
-
 }
 
 .bio {
-  margin: 80px;
   justify-content: center;
 }
 
@@ -199,43 +182,50 @@ div.about-me {
   color: #A29064;
   text-align: center;
   justify-content: center;
-  font-size: 18px;
-  padding: 10px;
+}
+
+section.about-me div:last-child{
+  margin-bottom: 30px;
 }
 
 
+/* CARD SECTION  */
+
 section.projects {
-  width: 80%;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  max-width: 1000px;
   justify-content: center;
 }
 
-div.project {
-  margin: 30px;
+.project {
+  margin: 3em auto;
+  min-height: 350px;
+  background: #FFF;
 
+  opacity: 0.9;
+  border-radius: 4px;
 }
 
 
 .project-description {
   padding-left: 0;
+  font-size: 1.2em;
+
 
 }
 
 .project img {
   width: 100%;
+  height: 100%;
 
 }
 
-.img-mdl-cell {
-  height: 173px;
-  width: 263px;
-}
 
 h2.mdl-card__title-text {
-  width: 100%;
-  border-bottom: solid 1px #E1E1E1;
-  font-family: 'Open Sans', sans-serif;
 
+  border-bottom: solid 1px #6B5E3D;
+  font-family: 'Open Sans', sans-serif;
+  color: #6B5E3D;
 }
 
 
@@ -281,10 +271,7 @@ h1 {
   width: 100%;
 }
 
-.img-mdl-cell {
-  height: 173px;
-  width: 283px;
-}
+
 
 
 
