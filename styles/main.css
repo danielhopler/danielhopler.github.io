@@ -90,7 +90,7 @@ span.mdl-layout-title {
   color: #A29064;
   text-align: center;
   font-size: 4em;
-  margin: 60px;
+  margin: 30px;
   line-height: auto;
 
 }
@@ -102,7 +102,7 @@ span.mdl-layout-title {
   font-weight: 300;
   color: #A29064;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2.1em;
   margin: 20px;
   line-height: auto;
 }
@@ -112,9 +112,9 @@ span.mdl-layout-title {
   font-weight: 300;
   color: #A29064;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 100%;
-  margin: 30px;
+  margin: 20px;
   line-height: auto;
 }
 
@@ -126,7 +126,7 @@ span.mdl-layout-title {
   font-size: 1.5em;
   line-height: 1.1em;
   opacity: 0.9;
-  margin: 30px;
+  margin: 10px;
   line-height: auto;
 }
 
@@ -162,7 +162,6 @@ div.scroll-arrow {
   text-align: center;
   justify-content: center;
   height: 100vh;
-  border: solid 4px yellow;
 }
 
 
@@ -174,6 +173,7 @@ div.scroll-arrow {
 
 .bio {
   justify-content: center;
+
 }
 
 .bio p {
